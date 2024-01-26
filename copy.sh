@@ -14,3 +14,8 @@ cp "$source_full_path" "$destination_dir"
 
 # 成功メッセージを表示
 echo "File $source_file が $destination_dir にコピーされました。"
+
+cd $destination_dir
+git add -A
+git commit -m "update"
+git push
