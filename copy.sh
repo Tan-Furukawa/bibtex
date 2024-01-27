@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# test
+
 destination_dir="$(dirname $0)"
 source_file="/../article/summary.bib"
 source_full_path="$destination_dir$source_file"
