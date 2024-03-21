@@ -2,6 +2,7 @@
 #!----------------------------------------------------
 #! 注意! bibdeskと紐づいているパスでこのコードを実行しないこと
 #!----------------------------------------------------
+# まあゆうて大丈夫
 
 #%%
 import re
@@ -26,6 +27,6 @@ def remove_url_fields_from_bib(bib_file, output_file):
     with open(output_file, 'w') as file:
         file.write(modified_bib_data)
 
-# この部分は絶対に変更しない
+# この部分は絶対に変更しない(まあゆうて大丈夫)
 remove_url_fields_from_bib('summary.bib', 'summary_mod.bib')
 #%%
